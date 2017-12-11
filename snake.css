@@ -1,0 +1,67 @@
+*{
+
+padding: 0;
+margin: 0;
+
+}
+
+body{
+
+ background-image: -webkit-gradient(linear, left top, left bottom,
+    from(DarkViolet), to(Tomato));
+
+/*background-color: -webkit-linear-gradient(purple, blue);*/
+
+}
+
+td{
+
+width: 20px;
+height: 20px;
+
+}
+
+
+.blank{
+
+background-color: blank;
+
+}
+
+.snake{
+
+background-color: MistyRose;
+
+}
+
+.wall{
+
+background-color: slateBlue;
+
+
+}
+
+.fruit{
+
+background-color: aquamarine;
+
+}
+
+#refresh-button{
+
+background-color: purple;
+font-family: 'Orbitron', sans-serif;
+border-radius: 12px;
+height: 50px;
+/*padding-right: -680px;*/
+/*padding-left: 680px;*/
+margin-left:800px;
+
+
+}
+
+
+#score {
+  font: Orbitron font-size: 22px;
+	color: honeydew;
+}
