@@ -1,3 +1,7 @@
+//Thanks and credit to Blendy Cat on youtube for your tutorial to help me make this project
+//possible.
+
+
 //settings
 var snakeX = 2;
 var snakeY = 2;

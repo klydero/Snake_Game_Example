@@ -7,8 +7,9 @@ margin: 0;
 
 body{
 
- background-image: -webkit-gradient(linear, left top, left bottom,
-    from(DarkViolet), to(Tomato));
+  /* background-image:*/ background: -webkit-linear-gradient(45deg, #950AFF 0%, #5ED0B8 38%, #52FFA8 47%, #FF8C8C 84%, #FF8C8C 100%); /* safari5.1+,chrome10+ */
+  /*-webkit-gradient(linear, left top, left bottom,
+    from(DarkViolet), to(Tomato)); */
 
 /*background-color: -webkit-linear-gradient(purple, blue);*/
 
@@ -30,7 +31,7 @@ background-color: blank;
 
 .snake{
 
-background-color: MistyRose;
+background-color: purple;
 
 }
 
@@ -38,12 +39,14 @@ background-color: MistyRose;
 
 background-color: slateBlue;
 
-
+border: 1px ridge rgb(253, 138, 99);
 }
+
 
 .fruit{
 
-background-color: aquamarine;
+background-color: rgb(255, 77, 77);
+border: .5px solid aquamarine;
 
 }
 
@@ -51,17 +54,60 @@ background-color: aquamarine;
 
 background-color: MediumPurple;
 font-family: 'Orbitron', sans-serif;
+color: white;
 border-radius: 12px;
+border-color: coral;
 height: 50px;
 /*padding-right: -680px;*/
 /*padding-left: 680px;*/
-margin-left:800px;
+margin-left:850px;
+margin-top: 460px;
+position: absolute;
+z-index: 1;
 
+}
+#refresh-button:hover{
+
+background-color: plum;
 
 }
 
+#refresh-button:active{
+
+  box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+  }
 
 #score {
   font-family: 'Orbitron' , sans-serif;
-	color: honeydew;
+  font-size: 50px;
+     -webkit-text-fill-color: salmon; /* Will override color (regardless of order) */
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: indigo;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 30px;
+}
+
+table {
+  /* code to move around the table goes here */
+  position: relative;
+  margin-left: 25px;
+  margin-top: 25px;
+
+}
+p{
+
+  font-family: 'Architects Daughter' , sans-serif;
+  font-size: 30px;
+     -webkit-text-fill-color: orchid; /* Will override color (regardless of order) */
+     -webkit-text-stroke-color: DarkSeaGreen;
+     -webkit-text-stroke-width: .5px;
+     text-shadow: 2px 2px 5px rgb(51, 0, 77);
+  margin-left:800px;
+  margin-top: 125px;
+position: absolute;
+z-index: 1;
+
 }
